@@ -34,3 +34,39 @@ inq.prompt([
     }
 
   })
+
+  function myTweets() {
+    // ajax call twitter
+  }
+
+  function thisSong() {
+    inq.prompt([
+      {
+        type: 'input',
+        message: 'Which song do you want to look up?',
+        name: 'songInput'
+      }
+    ])
+    .then(function(response) {
+      console.log(response)
+      //ajax call to spotify
+    })
+  }
+
+  function thisMovie() {
+    inq.prompt([
+      {
+        type: 'input',
+        message: 'What movie would you like to look up?',
+        name: 'movieInput'
+      }
+    ])
+    .then(function(response) {
+      console.log(response)
+      //ajax call to omdb
+    })
+  }
+
+  function rando() {
+    // uses fs to input random.txt value to spotify-this-song
+  }
