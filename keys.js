@@ -6,3 +6,5 @@ var twitterKeys = {
   access_token_key: '924758224540241921-D7LDbLPwwVaLrE8vrP7vYDa6joltgOy',
   access_token_secret: '  PpMH0jN4No88Xa6pD5b9Y1iSIKRBwefgMUc37bY15MoFh',
 }
+
+module.exports = twitterKeys;
